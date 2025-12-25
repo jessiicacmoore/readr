@@ -1,1 +1,9 @@
+@import './tokens.css';
+@import './theme.css';
+
 @import 'tailwindcss';
+
+html,
+body {
+  height: 100%;
+}

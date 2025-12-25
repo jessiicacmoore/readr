@@ -1,0 +1,7 @@
+.sb-show-main,
+#storybook-root,
+#root {
+  background: hsl(var(--bg-app) / 1);
+  color: hsl(var(--text-default) / 1);
+  min-height: 100vh;
+}

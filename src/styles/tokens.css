@@ -1,0 +1,62 @@
+/* -------- LIGHT THEME -------- */
+:root {
+  /* Backgrounds */
+  --bg-app: 0 0% 100%; /* white */
+  --bg-surface: 210 40% 98%; /* slate-50 */
+  --bg-surface-hover: 210 40% 96%; /* slate-100 */
+
+  /* Text */
+  --text-default: 222 47% 11%; /* slate-900 */
+  --text-muted: 215 16% 47%; /* slate-500 */
+  --text-inverse: 0 0% 100%; /* white */
+
+  /* Borders */
+  --border-default: 214 32% 91%; /* slate-200 */
+  --border-subtle: 214 32% 94%; /* slate-100 */
+
+  /* Brand (Indigo) */
+  --brand-primary: 239 84% 67%; /* indigo-500 */
+  --brand-primary-hover: 239 84% 60%; /* indigo-600 */
+  --brand-primary-text: 0 0% 100%; /* white */
+
+  /* Focus */
+  --focus-ring: 239 84% 67%; /* indigo-500 */
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 8px 20px -10px rgb(0 0 0 / 0.15);
+}
+
+/* -------- DARK THEME -------- */
+:root[data-theme='dark'] {
+  /* Backgrounds */
+  --bg-app: 222 47% 7%; /* slate-950 */
+  --bg-surface: 223 39% 11%; /* slate-900 */
+  --bg-surface-hover: 223 39% 14%; /* slate-800 */
+
+  /* Text */
+  --text-default: 210 40% 98%; /* slate-50 */
+  --text-muted: 215 20% 72%; /* slate-400 */
+  --text-inverse: 222 47% 7%; /* slate-950 */
+
+  /* Borders */
+  --border-default: 217 19% 27%; /* slate-700 */
+  --border-subtle: 217 19% 22%; /* slate-800 */
+
+  /* Brand (Indigo) */
+  --brand-primary: 239 84% 72%; /* indigo-400 */
+  --brand-primary-hover: 239 84% 78%; /* indigo-300 */
+  --brand-primary-text: 222 47% 7%; /* slate-950 */
+
+  /* Focus */
+  --focus-ring: 239 84% 72%; /* indigo-400 */
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+  --shadow-md: 0 12px 32px -16px rgb(0 0 0 / 0.6);
+}

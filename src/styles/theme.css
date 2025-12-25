@@ -1,0 +1,25 @@
+@theme {
+  --color-bg-app: hsl(var(--bg-app) / 1);
+  --color-bg-surface: hsl(var(--bg-surface) / 1);
+  --color-bg-surface-hover: hsl(var(--bg-surface-hover) / 1);
+
+  --color-text-default: hsl(var(--text-default) / 1);
+  --color-text-muted: hsl(var(--text-muted) / 1);
+  --color-text-inverse: hsl(var(--text-inverse) / 1);
+
+  --color-border-default: hsl(var(--border-default) / 1);
+  --color-border-subtle: hsl(var(--border-subtle) / 1);
+
+  --color-brand-primary: hsl(var(--brand-primary) / 1);
+  --color-brand-primary-hover: hsl(var(--brand-primary-hover) / 1);
+  --color-brand-primary-text: hsl(var(--brand-primary-text) / 1);
+
+  --color-focus-ring: hsl(var(--focus-ring) / 1);
+
+  --radius-radius-sm: var(--radius-sm);
+  --radius-radius-md: var(--radius-md);
+  --radius-radius-lg: var(--radius-lg);
+
+  --shadow-shadow-sm: var(--shadow-sm);
+  --shadow-shadow-md: var(--shadow-md);
+}
