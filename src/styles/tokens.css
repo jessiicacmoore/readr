@@ -1,4 +1,4 @@
-/* -------- LIGHT THEME -------- */
+/* -------- LIGHT THEME / DEFAULTS -------- */
 :root {
   /* Backgrounds */
   --bg-app: 0 0% 100%; /* white */
@@ -9,6 +9,19 @@
   --text-default: 222 47% 11%; /* slate-900 */
   --text-muted: 215 16% 47%; /* slate-500 */
   --text-inverse: 0 0% 100%; /* white */
+
+  /* Font */
+  --font-family-sans: "Source Sans 3", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-family-serif: "Fraunces", ui-serif, Georgia, "Times New Roman", Times, serif;
+
+  --font-body: var(--font-family-sans);
+  --font-display: var(--font-family-serif);
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
 
   /* Borders */
   --border-default: 214 32% 91%; /* slate-200 */

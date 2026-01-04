@@ -1,10 +1,7 @@
+import { BooksPage } from '@/features/books/pages/BooksPage/BooksPage';
+
 function App() {
-  return (
-    <>
-      <h1 className="text-3xl">readr</h1>
-      <p>Hello world</p>
-    </>
-  );
+  return <BooksPage />;
 }
 
 export default App;
